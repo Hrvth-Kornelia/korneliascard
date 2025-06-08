@@ -1,0 +1,531 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.bi-download{
+  color: white;
+  margin-left: 5px;
+ 
+}
+
+.bi-telephone,
+.bi-envelope-at-fill,
+.bi-instagram,
+.bi-facebook,
+.bi-globe2,
+.bi-cash-stack,
+.bi-cash-stack{
+  color: #C6A750;   
+}
+.bi-instagram{
+  margin-left: 5px;
+
+}
+.bi-facebook{
+  margin-left: 5px;
+  
+}
+.bi-envelope-at-fill{
+  margin-left: 5px;
+}
+.bi-telephone{
+  margin-left: 5px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo img {
+  width: 110px;
+  height: 80px;
+  margin-top: 10px;
+}
+
+.profilkep-image img {
+  width: 270px;
+  height: 220px;
+  margin-left: -20px;
+  margin-top: 30px;
+}
+
+.hr1 {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin: 20px 0;
+}
+
+.cegvezeto-nev{
+    font-size: 35px;
+    margin-top: 10px;
+}
+.tulajdonos{
+    font-size: 18px;
+    margin-top: 7px;
+    color: rgb(80, 80, 80);
+}
+.cegnev{
+font-size: 23px;
+margin-top: 10px;
+margin-bottom: 30px;
+}
+.mentes-nevjegykent{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 160px;
+    background-color:  #C6A750;
+    padding: 12px;
+    border-radius: 11px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    width: 220px;
+    height: 50px;
+    white-space: nowrap;
+    padding-left: 1%;
+    padding-right: 4%;
+    text-decoration: none;   
+    box-shadow: 0px 4px 12px rgb(111, 111, 111);
+}
+.telefonszam{
+    background-color: #000000;
+    border: 1.6px solid #C6A750;
+    padding-top:15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: 390px;
+    padding-left: 4%;
+    height: 60px;
+    white-space: nowrap;
+    margin-top: 20px;
+    text-decoration: none; 
+    font-size: 20px; 
+     box-shadow: 0px 7px 11px rgb(121, 121, 121);
+}
+.emailcim{
+    background-color: #000000;
+    border: 1.6px solid #C6A750;
+    padding-top:15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: 390px;
+    padding-left: 4%;
+    height: 60px;
+    white-space: nowrap;
+    margin-top: 20px;
+    text-decoration: none; 
+    font-size: 20px; 
+    box-shadow: 0px 7px 11px rgb(121, 121, 121);
+} 
+.Social-Media-feluletek-weboldal{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.instabutton{
+    background-color: black;
+    border: 1.6px solid #C6A750;
+    padding-top:15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: 210px;
+    padding-left: 2%;
+    height: 60px;
+    white-space: nowrap;
+    margin-top: 20px;
+    margin-left: 40px;
+    text-decoration: none; 
+    font-size: 20px; 
+    box-shadow: 0px 7px 11px rgb(121, 121, 121);   
+}
+.facebookbutton{
+   background-color:black;
+    border: 1.6px solid #C6A750;
+    padding-top:15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: 210px;
+    padding-left: 2%;
+    height: 60px;
+    white-space: nowrap;
+    margin-top: -60px;
+    margin-left: 250px;
+    text-decoration: none; 
+    font-size: 20px; 
+    box-shadow: 0px 7px 11px rgb(121, 121, 121);
+}
+.mywebpage{
+    background-color: black;
+    border: 1.6px solid #C6A750;
+    padding-top:15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: 310px;
+    padding-left: 2%;
+    height: 60px;
+    white-space: nowrap;
+    margin-top: 20px;
+    margin-left: 100px;
+    text-decoration: none; 
+    font-size: 20px; 
+    box-shadow: 0px 7px 11px rgb(121, 121, 121);  
+}
+
+.uzleti-informaciok-cim{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 70px;
+    margin-left: 30px;   
+}
+.uzleti-informaciok{
+    gap: 30px;
+
+}
+.arlista{
+    background-color: #000000;
+    border: 1.6px solid #C6A750;
+    padding-top:15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: 390px;
+    padding-left: 2%;
+    height: 60px;
+    white-space: nowrap;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-decoration: none; 
+    font-size: 20px; 
+     box-shadow: 0px 7px 11px rgb(121, 121, 121);
+}
+.Nyitvatartas{
+    background-color: #000000;
+    border: 1.6px solid #C6A750;
+    padding-top:15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: 390px;
+    padding-left: 2%;
+    height: 60px;
+    white-space: nowrap;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-decoration: none; 
+    font-size: 20px; 
+    box-shadow: 0px 7px 11px rgb(121, 121, 121);   
+}
+.szolgaltatasok{
+    background-color: #000000;
+    border: 1.6px solid #C6A750;
+    padding-top:15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: 390px;
+    padding-left: 2%;
+    height: 60px;
+    white-space: nowrap;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-decoration: none; 
+    font-size: 20px; 
+    box-shadow: 0px 7px 11px rgb(121, 121, 121); 
+}
+.akciok{
+    background-color: #000000;
+    border: 1.6px solid #C6A750;
+    padding-top:15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: 390px;
+    padding-left: 2%;
+    height: 60px;
+    white-space: nowrap;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-decoration: none; 
+    font-size: 20px; 
+    box-shadow: 0px 7px 11px rgb(121, 121, 121);
+}
+.Aktualis-tavolletek{
+   background-color: #000000;
+    border: 1.6px solid #C6A750;
+    padding-top:15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: 390px;
+    padding-left: 2%;
+    height: 60px;
+    white-space: nowrap;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-decoration: none; 
+    font-size: 20px; 
+    box-shadow: 0px 7px 11px rgb(121, 121, 121);
+}
+.bi-clock,
+.bi-hand-index-thumb,
+.bi-megaphone
+{
+  color: #e1bd59; 
+  margin-left: 10px;
+}
+.bi-images{
+   color: #C6A750; 
+}
+.portfolio-cim{
+   text-align: center;
+    font-size: 35px;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.portfolio-bemutatas{
+  font-size: 23px;
+  margin-top: 10px;
+}
+.portfolio{
+    background-color: #000000;
+    border: 1.6px solid #C6A750;
+    padding-top:15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: 390px;
+    padding-left: 2%;
+    height: 60px;
+    white-space: nowrap;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-decoration: none; 
+    font-size: 20px; 
+    box-shadow: 0px 7px 11px rgb(121, 121, 121);
+}
+.fizetes-banki-atutalassal-cim{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.kedvezmenyezett{
+  font-size: 22px;
+  margin-top: 10px;
+}
+.nev{
+ font-size: 22px; 
+}
+.szamla{
+  font-size: 22px; 
+  margin-top: 10px;
+}
+.szamlaszam{
+ font-size: 22px;  
+ margin-top: 10px;
+}
+.uzlethelyseg-lokacio{
+  font-size: 35px;
+  margin-top: 50px;
+}
+
+.iframe iframe {
+  width: 100%;
+  max-width: 700px;
+  height: 300px;
+  border: none;
+  margin-top: 20px;
+}
+
+/* Mobil nézet */
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 10px;
+  }
+  .iframe iframe {
+    height: 200px;
+  }
+  .logo img{
+    width: 81px;
+    height: 67px;
+    margin-left: 20px;
+  }
+  .profilkep-image img{
+    height: 150px;
+    width: 170px;
+    margin-left: 0px;
+  }
+  .hr1{
+    margin-left: 0px;
+  }
+  .cegvezeto-nev{
+    font-size: 22px;
+    margin-left: 10px;
+  }
+  .tulajdonos{
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  .cegnev{
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .mentes-nevjegykent{
+    padding-left: 11px;
+    padding-top: 9px;
+    height: 37px;
+    width: 160px;
+    font-size: 13px;
+    margin-top: -5px;
+  }
+  .telefonszam{
+    width: 240px;
+    height: 42px;
+    font-size: 15px;
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+  .emailcim{
+   width: 240px;
+    height: 42px;
+    font-size: 15px;
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+  .Social-Media-feluletek-weboldal{
+    font-size: 22px;
+    white-space: nowrap;
+    margin-left: 10px
+  }
+  
+  .instabutton{
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    margin-left: 10px;
+    padding-top: 10px !important;
+  }
+  .facebookbutton{
+    width: 120px;
+    height: 40px;
+    margin-top: -40px;
+    font-size: 14px;
+    margin-left: 140px; 
+    padding-top: 10px !important;
+  }
+  .mywebpage{
+    margin-top: 20px;
+    width: 180px;
+    height: 40px;
+    font-size: 15px;
+    margin-left: 45px; 
+    padding-top: 10px !important;
+    
+  }
+  .uzleti-informaciok-cim{
+    font-size: 22px;
+    margin-left: 10px;
+    margin-top: 40px;
+  }
+  .arlista{
+    width: 240px;
+    height: 42px;
+    font-size: 15px;
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+  .Nyitvatartas{
+    width: 240px;
+    height: 42px;
+    font-size: 15px;
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+  .szolgaltatasok{
+    width: 240px;
+    height: 42px;
+    font-size: 15px;
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+  .akciok{
+    width: 240px;
+    height: 42px;
+    font-size: 15px;
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+  .Aktualis-tavolletek{
+    width: 240px;
+    height: 42px;
+    font-size: 15px;
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+  .portfolio-cim{
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+  .portfolio-bemutatas{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .portfolio{
+    width: 240px;
+    height: 42px;
+    font-size: 15px;
+    margin-left: 10px;
+    padding-top: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-top: 15px;
+     box-shadow: 0px 11px 22px rgb(77, 77, 77);
+  }
+  .fizetes-banki-atutalassal-cim{
+    font-size: 25px;
+    margin-left: 30px;
+  }
+  .kedvezmenyezett{
+    font-size: 17px;
+    margin-left: 40px;
+  }
+  .nev{
+    font-size: 17px;
+    margin-left: 0px;
+  }
+  .szamlaszam{
+    font-size: 17px;
+    margin-left: 0px;
+  }
+  .szamla{
+    font-size: 17px;
+    margin-left: 40px;
+  }
+  .uzlethelyseg-lokacio{
+    font-size: 25px;
+    margin-left: 40px;
+  }
+  .iframe iframe{
+    margin-left: 0px;
+  }
+}
